@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>1.JPG</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>A</Keyword>
+    <Impressions>1</Impressions>
+    <Caption></Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>2.JPG</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>A</Keyword>
+    <Impressions>1</Impressions>
+    <Caption></Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>3.JPG</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>S</Keyword>
+    <Impressions>1</Impressions>
+    <Caption></Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>4.JPG</ImageUrl>
+    <NavigateUrl></NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>A</Keyword>
+    <Impressions>1</Impressions>
+    <Caption></Caption>
+  </Ad>
+  <Ad>
+    <ImageUrl>6.JPG</ImageUrl>
+    <NavigateUrl>
+    </NavigateUrl>
+    <AlternateText></AlternateText>
+    <Keyword>r</Keyword>
+    <Impressions>1</Impressions>
+    <Caption></Caption>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,12 @@
+USE [eauction]
+GO
+/****** Object:  Table [dbo].[mailverify]    Script Date: 01/08/2015 16:50:25 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[mailverify](
+	[userid] [nvarchar](50) NULL,
+	[rid] [nvarchar](50) NULL,
+	[datet] [nvarchar](50) NULL
+) ON [PRIMARY]

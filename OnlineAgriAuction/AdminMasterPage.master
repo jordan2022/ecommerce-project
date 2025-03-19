@@ -1,0 +1,95 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title>E-AgriMarket</title>
+    
+ <meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="App_Themes/style.css"rel="stylesheet" type="text/css" media="screen" />
+<%--<script language="javascript" type="text/javascript">
+    </script>--%>
+    <script type="text/javascript">
+        $(window).load(function () {
+            $('#nivo-slider').nivoSlider();
+        });
+    </script>
+</head>
+<body >
+    <form id="form1" runat="server">
+  <div id="wrapper" style="height=500px;">
+
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li class="current_page_item"><a href="adminhome.aspx">Home</a></li>
+				<li><a href="sellerhome.aspx">Product Entry</a></li>
+				<li><a href="userlist.aspx">Customers</a></li>
+				<li><a href="productlist.aspx">Products</a></li>
+				<li><a href="Adminauction.aspx">Auction</a></li>
+				<li><a href="Vviewfeeback.aspx">Reply</a></li>
+				<li><a href="Aviewauction.aspx">Notify</a></li>
+				<%--<li><a href="#">About</a></li>--%>
+				
+				<li><a href="login.aspx">Logout</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+		
+		<!-- end #search -->
+	</div>
+	<!-- end #header -->
+	<div id="logo">
+		<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            e-Auction</h1>
+	</div>
+	<hr />
+	<!-- end #logo -->
+<!-- end #header-wrapper -->
+
+<div id="page">
+	<div id="content">
+		<div class="post">
+			<h2 class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                Welcome to E-AgriMarket</h2>
+			
+			<%--<div class="entry">
+				<p>This is <strong>Blogging</strong>, a free, fully standards-compliant CSS template designed by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a>, released for free under the <a href="http://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5</a> license. The photos in this design are from <a href="http://www.pdphoto.org/">PDPhoto.org</a>. You're free to use this template for anything as long as you link back to <a href="http://www.freecsstemplates.org/">my site</a>. Enjoy :)</p>
+				<p>Sed lacus. Donec lectus. Nullam pretium nibh ut turpis. Nam bibendum. In nulla tortor, elementum ipsum. Proin imperdiet est. Phasellus dapibus semper urna. Pellentesque ornare, orci in felis. Donec ut ante. In id eros. Suspendisse lacus turpis, cursus egestas at sem.Sed lacus. Donec lectus. </p>
+				<p class="links"><a href="#" class="comments">Comments (64)</a> &nbsp;&nbsp;&nbsp; <a href="#" class="permalink">Full article</a></p>
+			</div>--%>
+			<div>
+			<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                <p>
+                    <br />
+                </p>
+                <p>
+                </p>
+        
+        </asp:ContentPlaceHolder>
+			
+			</div>
+		    </div>
+	
+	
+	</div>
+	
+	<!-- end #content -->
+	<!-- end #sidebar -->
+	          <br />
+              <br />
+</div>
+<!-- end #page -->
+
+</div>
+
+<!-- end #footer -->
+</div>
+
+    </form>
+  
+</body>
+</html>
